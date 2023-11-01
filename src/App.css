@@ -121,6 +121,10 @@ h1:hover {
   color: red;
 }
 
+h6 {
+  mix-blend-mode: normal;
+}
+
 :link {
   color: white;
   font-size: 16px;

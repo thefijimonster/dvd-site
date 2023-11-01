@@ -151,7 +151,7 @@ const ARCHIVE = () => {
                         <div className="archiveTitle">
                             <ArchiveComp date="2023" title="SPEAKER DESIGN PROJECT 002" category="PRODUCT DESIGN, SPEAKER ENGINEERING"/>
                         </div>
-                        <div className='gllryContainer' style={{gap: '20px'}}>
+                        <div className='gllryContainer' style={{gap: '0px'}}>
                             <img className="galleryImg" style={{width: '120px'}} src={require('../Assets/SPKR0025.jpg')}></img>
                             <img className="galleryImg" style={{width: '120px'}} src={require('../Assets/SPKR0022.jpg')}></img>
                             <img className="galleryImg" style={{width: '280px'}} src={require('../Assets/SPEAKER10.png')}></img>

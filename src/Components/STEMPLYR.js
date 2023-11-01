@@ -19,15 +19,17 @@ const STEMPLYR = () => {
                 <Back></Back>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '10px', marginTop: '30px', marginBottom: '40px'}}>
                     <h4 style={{backgroundColor: 'red', fontSize: '30px'}}>STEM PROJECTOR</h4>
-                    <p style={{width: '500px', textAlign: 'center', marginTop: '-20px'}}>During my time as a design engineer intern at STEM, I created a working linkage system in a size-constrained system for the Stem Projector.
-                    </p>
-                    <div style={{display: 'flex', height: '500px', alignItems: 'center', justifyContent: 'center', marginTop: '-150px', gap: '20px'}}>
-                        <img style={{height: '180px', marginTop: '10px'}} src={STEM1}></img>
-                        <img style={{height: '180px', marginTop: '10px'}} src={STEM2}></img>
+                    {/* <p style={{width: '500px', textAlign: 'center', marginTop: '-20px'}}>During my time as a design engineer intern at STEM, I created a working linkage system in a size-constrained system for the Stem Projector.
+                    </p> */}
+                    <div style={{display: 'flex', height: '500px', alignItems: 'center', justifyContent: 'center', gap: '20px', marginTop: '-140px'}}>
+                        {/* <img style={{height: '180px', marginTop: '10px'}} src={STEM1}></img> */}
+                        <img className='galleryImg' style={{width: '300px', marginTop: '10px'}} src={STEM2}></img>
                     </div>
-                    <p style={{width: '500px', textAlign: 'center', marginTop: '-150px'}}>When the projector is placed on a surface, the spheroid silicon form would morph to project at an angle.
+                    <p style={{width: '500px', textAlign: 'center', marginTop: '-100px'}}>During my time as a design engineer intern at STEM, I created a working linkage system in a size-constrained system for the Stem Projector.
                     </p>
-                    <img style={{width: '500px', marginTop: '10px'}} src={STEM6}></img>
+                    {/* <p style={{width: '500px', textAlign: 'center', marginTop: '-150px'}}>When the projector is placed on a surface, the spheroid silicon form would morph to project at an angle.
+                    </p> */}
+                    <img style={{width: '500px', marginTop: '30px'}} src={STEM6}></img>
                     <div style={{
                         display: 'flex',
                         flexDirection: 'column',
