@@ -18,7 +18,14 @@ const STEMPLYR = () => {
             <div id="contentDiv">
                 <Back></Back>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '10px', marginTop: '30px', marginBottom: '40px'}}>
-                    <h4 style={{backgroundColor: 'red', fontSize: '30px'}}>STEM PROJECTOR</h4>
+                    {/* <h4 style={{backgroundColor: 'red', fontSize: '30px'}}>STEM PROJECTOR</h4> */}
+                    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '30px', marginBottom: '10px',  paddingRight: '8px', paddingLeft: '8px'}}>
+                        <p style={{width: '600px', textAlign: 'center', color: 'red', fontWeight: 'bolder', fontSize: '20px', lineHeight: '24px'}}>
+                            PROBLEM-SOLVING THROUGH DESIGN ENGINEERING
+                            <br></br>
+                            <span style={{color: 'white', fontSize: '14px'}}>[ INTERNSHIP ]</span>
+                        </p>
+                    </div>
                     {/* <p style={{width: '500px', textAlign: 'center', marginTop: '-20px'}}>During my time as a design engineer intern at STEM, I created a working linkage system in a size-constrained system for the Stem Projector.
                     </p> */}
                     <div style={{display: 'flex', height: '500px', alignItems: 'center', justifyContent: 'center', gap: '20px', marginTop: '-140px'}}>

@@ -13,7 +13,7 @@ import DVDLogo from "./DVDBOUNCE";
 const WorkPage = () => {
 
     return (
-        <section>
+        <section >
             {/* <Background></Background> */}
             <div id="contentDiv">
                 <DVDLogo/>

@@ -22,6 +22,13 @@ const SNDSCPE = () => {
                         <source src={SANDSCAPE1} type="video/mp4" />
                     </video> */}
                     {/* <h4 style={{backgroundColor: 'red', fontSize: '30px'}}>SANDSCAPE</h4> */}
+                    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '30px', marginBottom: '-50px',  paddingRight: '8px', paddingLeft: '8px'}}>
+                        <p style={{width: '600px', textAlign: 'center', color: 'red', fontWeight: 'bolder', fontSize: '20px', lineHeight: '24px'}}>
+                            CREATING AN INTERACTION-CENTERED SYSTEM EXCERCISING AN APPLICATION OF PHYSICAL COMPUTING
+                            <br></br>
+                            <span style={{color: 'white', fontSize: '14px'}}>[ UNIVERSITY PROJECT ]</span>
+                        </p>
+                    </div>
                     <img src={SANDSCAPE1} style={{mixBlendMode: 'exclusion', width: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '50px', marginBottom: '10px'}}></img>
                     <p style={{width: '500px', textAlign: 'center'}}>JAPANESE DRY GARDEN [KARESANSUI] TEMPLES ARE EPHEMERAL IN NATURE, DOWN TO THE RAKED SAND AND POSITIONING OF ROCKS, WHICH SYMBOLISE NATURAL ELEMENTS. THIS PROJECT WAS A EXPLORATION OF INTERACTION-INDUCED METAMORPHOSIS IN A TRADITIONALLY UNCHANGING ENVIRONMENT.</p>
                     {/* <h3 style={{marginTop: '20px'}}>[USER INTERACTION]</h3> */}

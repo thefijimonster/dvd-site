@@ -9,7 +9,7 @@ const ARCHIVE = () => {
             <Background></Background>
             <div id="contentDiv">
                 <Back></Back>
-                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'left', justifyContent: 'center', marginTop: '80px', marginBottom: '35px'}}>
+                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'left', justifyContent: 'center', textAlign: 'left', marginTop: '80px', marginBottom: '35px'}}>
                     {/* <div style={{alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
                         <h4 style={{backgroundColor: 'red', fontSize: '30px', textAlign: 'center', width: '160px'}}>ARCHIVE</h4>
                     </div> */}
@@ -19,9 +19,13 @@ const ARCHIVE = () => {
                         <span style={{border: '0.5px solid white'}}></span>
                     </div>
 
+                    
                     <div>
+                        
                         <div className="archiveTitle">
+                            <a href="https://travspresents.tv">
                             <ArchiveComp date="2023" title="TRAVSPRESENTS.TV" category="WEB DESIGN, GRAPHIC DESIGN, FULL-STACK DEVELOPMENT" resources="LINK"/>
+                            </a>
                         </div>
                         <div className='gllryContainer'>
                             <img className="galleryImg" style={{width: '450px'}} src={require('../Assets/TRAVSPRESENTS2.png')}></img>
@@ -64,6 +68,7 @@ const ARCHIVE = () => {
                         </div>
                     </div>
 
+                    <a href="https://www.youtube.com/watch?v=ecAW9v0PC_g&t=243s">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2023" title="TRAVSPRESENTS [NTS]" category="VIDEOGRAPHY" resources="LINK"/>
@@ -74,7 +79,9 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '190px', height: '120px'}} src={require('../Assets/NTS3.png')}></img>
                         </div>
                     </div>
+                    </a>
                     
+                    <a href="https://www.youtube.com/watch?v=pemL1jVN0qw&t=1451s">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2023" title="TRAVSPRESENTS [KINDRED]" category="VIDEOGRAPHY" resources="LINK"/>
@@ -86,7 +93,9 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/TPKINDRED5.png')}></img>
                         </div>
                     </div>
+                    </a>
 
+                    <a href="https://www.youtube.com/watch?v=M4zCjrp626E&t=51s">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2023" title="TRAVSPRESENTS [NOVELIST 3.5 LAUNCH]" category="VIDEOGRAPHY" resources="LINK"/>
@@ -98,6 +107,7 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/NOVELIST4.png')}></img>
                         </div>
                     </div>
+                    </a>
 
                     <div>
                         <div className="archiveTitle">
@@ -113,6 +123,7 @@ const ARCHIVE = () => {
                         </div>
                     </div>
                     
+                    <a href="https://www.youtube.com/watch?v=fodasXB_sOM">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2023" title="TRAVSPRESENTS [JUST JAM LIVE - TIM & BARRY]" category="VIDEOGRAPHY" resources="LINK"/>
@@ -124,7 +135,9 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/JUSTJAM4.png')}></img>
                         </div>
                     </div>
+                    </a>
 
+                    <a href="https://www.youtube.com/watch?v=YHWSFYn93Jg">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2023" title="TRAVSPRESENTS [POUND & YAM]" category="VIDEOGRAPHY, GRAPHIC DESIGN, GENERATIVE ART"/>
@@ -134,7 +147,9 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/PY2.png')}></img>
                         </div>
                     </div>
+                    </a>
 
+                    <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/SPKRDSGN001.pdf">
                     <div>
                         <div className="archiveTitle" >
                             <ArchiveComp date="2023" title="SPEAKER DESIGN PROJECT 001" category="PRODUCT DESIGN, SPEAKER ENGINEERING" resources="PDF"/>
@@ -147,6 +162,8 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/SPKR5.png')}></img>
                         </div>
                     </div>
+                    </a>
+
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2023" title="SPEAKER DESIGN PROJECT 002" category="PRODUCT DESIGN, SPEAKER ENGINEERING"/>
@@ -187,15 +204,29 @@ const ARCHIVE = () => {
 
                     <ArchiveComp date="2023" title="THE CARPET SHOP - KAIDI TATHAM" category="DJ"/>
                     
+                    <a href="https://www.mixcloud.com/Kindred_ldn/dvd-15823/">
                     <div>
                         <div className="archiveTitle">
-                            <ArchiveComp date="2023" title="KINDRED RADIO" category="DJ" resources="LINK"/>
+                            <ArchiveComp date="2023" title="KINDRED RADIO [15.08.23]" category="DJ" resources="LINK"/>
                         </div>
                         <div className='gllryContainer'>
                             <img className="galleryImg" style={{width: '240px'}} src={require('../Assets/KINDRED1.png')}></img>
                         </div>
                     </div>
+                    </a>
 
+                    <a href="https://www.mixcloud.com/Kindred_ldn/dvd-14323/">
+                    <div>
+                        <div className="archiveTitle">
+                            <ArchiveComp date="2023" title="KINDRED RADIO [14.03.23]" category="DJ" resources="LINK"/>
+                        </div>
+                        <div className='gllryContainer'>
+                            <img className="galleryImg" style={{width: '240px'}} src={require('../Assets/KINDRED1.png')}></img>
+                        </div>
+                    </div>
+                    </a>
+
+                    <a href="https://www.youtube.com/watch?v=6xR8e2J3gPw">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2023" title="CADELL - THE RIGHT ONE WILL COME" category="MUSIC VIDEO, GRAPHPIC DESIGN"/>
@@ -204,9 +235,11 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/CADELL1.png')}></img>
                         </div>
                     </div>
+                    </a>
 
                     <ArchiveComp date="2023" title="ROTATION POLICY VISUAL DIRECTION" category="PHOTOGRAPHY, GRAPHIC DESIGN"/>
 
+                    <a href="https://www.youtube.com/watch?v=7rOC2Qovt4U">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2023" title="OBLIGATED RECORDS 001 [NOVELIST x SUSSTRAPPERAZZI - MERCY]]" category="MUSIC VIDEO, GRAPHIC DESIGN" resources="LINK"/>
@@ -219,7 +252,9 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/MERCY5.jpg')}></img>
                         </div>
                     </div>
+                    </a>
 
+                    <a href="https://www.youtube.com/watch?v=1WFVIDFY-3A">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2023" title="OBLIGATED RECORDS 002 [MERKY ACE - LOCKSTOCK]" category="VIDEOGRRAPHY, GRAPHIC DESIGN" resources="LINK"/>
@@ -230,6 +265,7 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/LOCKSTOCK3.png')}></img>
                         </div>
                     </div>
+                    </a>
 
                     <div className='divider'>
                         <p style={{color: 'white', fontWeight: 'bolder'}}>2022</p>
@@ -275,6 +311,7 @@ const ARCHIVE = () => {
                         </div>
                     </div>
 
+                    <a href="https://www.youtube.com/watch?v=NQRSO8owtgM">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2022" title="RENZ - PULLUPINADINGER" category="MUSIC VIDEO" resources="LINK"/>
@@ -286,7 +323,9 @@ const ARCHIVE = () => {
                             <img className="galleryImg"  style={{ width: '180px'}}  src={require('../Assets/RNZ4.png')}></img>
                         </div>
                     </div>
+                    </a>
 
+                    <a href="https://www.youtube.com/watch?v=bp2wd4aw6nc">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2022" title="RENZ - LOOSE" category="MUSIC VIDEO" resources="LINK"/>
@@ -295,7 +334,9 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '200px'}}  src={require('../Assets/RENZ2.png')}></img>
                         </div>
                     </div>
+                    </a>
 
+                    <a href="https://www.youtube.com/watch?v=PVKp6gsR43o">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2022" title="SQUINTZ - FEEL GOOD" category="MUSIC VIDEO" resources="LINK"/>
@@ -305,7 +346,9 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '200px'}}  src={require('../Assets/SQUINTZ2.png')}></img>
                         </div>
                     </div>
+                    </a>
 
+                    <a href="https://www.youtube.com/watch?v=4lQFWpsfUQg">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2022" title="OBLIG X RINSE CHRISTMAS SET" category="VIDEOGRAPHY, GRAPHIC DESIGN" resources="LINK"/>
@@ -314,6 +357,7 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '240px'}}  src={require('../Assets/OBLIG1.png')}></img>
                         </div>
                     </div>
+                    </a>
 
                     <ArchiveComp date="2022" title="LEOHACK - IMPERIAL SPACE SOCIETY" category="HACKATHON"/>
 
@@ -324,8 +368,11 @@ const ARCHIVE = () => {
                         <span style={{border: '0.5px solid white'}}></span>
                     </div>
 
-                    <ArchiveComp date="2021" title="NATIONAL COVID HACKATHON FIRST PLACE" category="HACKATHON"/>
+                    <a href="https://www.techforgood.net/articles/stem-breaking-the-vicious-circle">
+                    <ArchiveComp date="2021" title="HOMEMADE - WON NATIONAL COVID HACKATHON FIRST PLACE" category="HACKATHON, START UP"/>
+                    </a>
                     
+                    <a href="https://www.notehub.co.uk/">
                     <div>
                         <div className="archiveTitle">
                             <ArchiveComp date="2021" title="NOTEHUB" category="START UP"/>
@@ -336,6 +383,7 @@ const ARCHIVE = () => {
                             <img className="galleryImg" style={{width: '260px'}}  src={require('../Assets/NOTEHUB3.png')}></img>
                         </div>
                     </div>
+                    </a>
 
                     <div className='divider'>
                         <p style={{color: 'white', fontWeight: 'bolder'}}>WIP</p>

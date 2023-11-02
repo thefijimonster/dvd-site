@@ -93,8 +93,15 @@ const SPKRDSGN = () => {
                         <br></br>
                         <br></br>
                     </p> */}
+                    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '30px', marginBottom: '10px',  paddingRight: '8px', paddingLeft: '8px'}}>
+                        <p style={{width: '600px', textAlign: 'center', color: 'red', fontWeight: 'bolder', fontSize: '20px', lineHeight: '24px'}}>
+                            AN EXPLORATION INTO APPLYING MY INTER-DISCIPLINARY PRACTISE WITH ART [MUSIC] TO CREATE A FOUR-POINT LOUDSPEAKER SYSTEM
+                            <br></br>
+                            <span style={{color: 'white', fontSize: '14px'}}>[ SELF-LED PROJECT ]</span>
+                        </p>
+                    </div>
                     <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/SPKRDSGN001.pdf">
-                        <img className="galleryImg" style={{width: '340px', mixBlendMode: 'normal', marginTop: '50px'}} src={require('../Assets/PAGE_ONE.png')}></img>
+                        <img className="galleryImg" style={{width: '340px', mixBlendMode: 'normal'}} src={require('../Assets/PAGE_ONE.png')}></img>
                     </a>
 
                     {/* <h6 style={{fontSize: '30px', marginTop: '-235px', backgroundColor: 'white', marginBottom: '235px', mixBlendMode: 'normal'}}>[CLICK TO <span style={{width: '100px'}}></span> VIEW DOCUMENT]</h6> */}

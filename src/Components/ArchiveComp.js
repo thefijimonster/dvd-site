@@ -8,8 +8,8 @@ const ArchiveComp = (props) => {
             <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '20px', marginLeft: '160px', width: '1000px', height: '30px'}}>
                 <p>{props.date}</p>
                 <p style={{width: '400px', textAlign: 'left'}}>{props.title}</p>
-                <p style={{width: '400px', height: '20px'}}>{props.category}</p>
-                <p style={{width: '100px', height: '20px'}}>{props.resources}</p>
+                <p style={{width: '400px', height: '20px', textAlign: 'left'}}>{props.category}</p>
+                <p style={{width: '100px', height: '20px', textAlign: 'left'}}>{props.resources}</p>
             </div>
         </section>
     );
