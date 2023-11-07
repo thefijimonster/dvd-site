@@ -3,6 +3,10 @@
   src: local('Press'), url(./Press_Start_2P/PressStart2P-Regular.ttf) format('ttf');
 }
 
+body {
+  background-color: #181818;
+}
+
 .App {
   text-align: center;
 }
