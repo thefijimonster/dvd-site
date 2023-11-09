@@ -9,11 +9,19 @@ import HorizontalScroll from "./HorizontalScroll";
 import HoverImage from "./HoverImage";
 import Back from "./Back";
 import DVDLogo from "./DVDBOUNCE";
+import MediaQuery from 'react-responsive'
 
 const WorkPage = () => {
 
     return (
         <section >
+            <MediaQuery maxWidth={500}>
+                <DVDLogo/>
+                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '95vh', width: '100vw'}}>
+                    <h1 style={{textAlign: 'center', fontSize: '30px', color: 'red'}}>[ VIEW ON DESKTOP ]</h1>
+                </div>
+            </MediaQuery>
+            <MediaQuery minWidth={500}>
             {/* <Background></Background> */}
             <div id="contentDiv">
                 <DVDLogo/>
@@ -64,6 +72,7 @@ const WorkPage = () => {
                     {/* </HorizontalScroll> */}
                     </div>
             </div>
+            </MediaQuery>
         </section>
     );
 

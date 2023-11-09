@@ -19,7 +19,7 @@ const TRVPRNTS = () => {
                         <p style={{width: '600px', textAlign: 'center', color: 'red', fontWeight: 'bolder', fontSize: '20px', lineHeight: '24px'}}>
                             WEB DEVELOPMENT PROJECT INCORPORATING SOFTWARE ENGINEERING AND GRAPHIC DESIGN TO CREATE A DIGITAL EXTENSION OF A LEADING PLATFORM IN UK CULTURE
                             <br></br>
-                            <span style={{color: 'white', fontSize: '14px'}}>[ SELF-LED PROJECT ]</span>
+                            <span style={{color: 'white', fontSize: '14px'}}>[ COMMISIONED PROJECT ]</span>
                         </p>
                     </div>
                     <a href="https://www.travspresents.tv/">

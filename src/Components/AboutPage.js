@@ -20,10 +20,10 @@ const AboutPage = () => {
                         {/* <h4 style={{backgroundColor: 'red', fontSize: '30px', marginTop: '-30px'}}>ABOUT ME</h4> */}
                         <p style={{width: '500px', textAlign: 'center', paddingLeft: '20px', fontSize: '11px', marginTop: '20px'}}>
                             Currently studying <span style={{color: 'red'}}>Design Engineering MEng [3rd year]</span> at the Dyson School of Design Engineering at Imperial College London.
-                            I carry a holistic cross-disciplinary approach to my passion of bridging design, creative tech, engineering and culture.
+                            I carry a holistic cross-disciplinary approach to my practise.
                         <br></br>
                         <br></br>
-                        I am looking for a <span style={{color: 'red'}}>6-month internship</span> at a studio/company that is able to offer a inter-disciplinary role spanning design, culture and creative technology.
+                        I am looking for a <span style={{color: 'red'}}>3/6-month internship</span> at a studio/company that is able to offer a inter-disciplinary role spanning design, culture and creative technology.
                         {/* <br></br>
                         <br></br>
                         GROWING UP IN A HOUSEHOLD WITH NO MUSIC, I ENSURED THAT THE REST OF MY LIFE WOULD BE FILLED WITH IT. */}

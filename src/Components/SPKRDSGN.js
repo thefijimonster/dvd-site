@@ -266,6 +266,7 @@ const SPKRDSGN = () => {
                             <p style={{width: '300px', textAlign: 'right', marginLeft: '50px'}}>MID/HIGH-FREQUENCY TRANSDUCER</p><p style={{paddingLeft: '20px', width: '300px', textAlign: 'left'}}>1.25-INCH ALUMINIUM DOME TWEETER </p>
                         </div>
                     </div>
+                    <p style={{width: '500px', textAlign: 'center'}}>DOCUMENTATION BOOKLET STILL TO BE CREATED.</p>
                     {/* <div style={{overflowX: 'scroll', width: '500px', whiteSpace: 'nowrap', alignItems: 'center'}}>
                         <img className='speaker-pdf' src={SPKR0021}></img>
                         <img className='speaker-pdf' src={SPKR0022}></img>
@@ -273,8 +274,18 @@ const SPKRDSGN = () => {
                         <img className='speaker-pdf' src={SPKR0024}></img>
                         <img className='speaker-pdf' src={SPKR0025}></img>
                     </div> */}
-                    <p style={{width: '500px', textAlign: 'center'}}>DOCUMENTATION BOOKLET STILL TO BE CREATED.</p>
-                    <img className='bw-image' style={{width: '450px', height: 'auto'}} src={SPEAKER10}></img>
+                    {/* <img className='speaker-pdf' style={{width: '1280px'}} src={require('../Assets/SPKR21.jpg')}></img> */}
+                    {/* <img className='speaker-pdf' style={{width: '1280px'}} src={require('../Assets/SPKR22.jpg')}></img> */}
+                    {/* <img className='speaker-pdf' style={{width: '1280px'}} src={require('../Assets/SPKR23.jpg')}></img>
+                    <img className='speaker-pdf' style={{width: '1280px'}} src={require('../Assets/SPKR24.jpg')}></img>
+                    <img className='speaker-pdf' style={{width: '1280px'}} src={require('../Assets/SPKR25.jpg')}></img> */}
+                    <img className='speaker-pdf' style={{width: '1280px'}} src={require('../Assets/SPKR26.jpg')}></img>
+                    {/* <img className='speaker-pdf' style={{width: '1280px'}} src={require('../Assets/SPKR27.jpg')}></img> */}
+                    <img className='speaker-pdf' style={{width: '1280px'}} src={require('../Assets/SPKR28.jpg')}></img>
+                    <img className='speaker-pdf' style={{width: '1280px'}} src={require('../Assets/SPKR22.jpg')}></img>
+                    <img className='speaker-pdf' style={{width: '1280px'}} src={require('../Assets/SPKR29.jpg')}></img>
+                    {/* <img className='speaker-pdf' style={{width: '1280px'}} src={require('../Assets/SPKR211.jpg')}></img> */}
+                    {/* <img className='bw-image' style={{width: '450px', height: 'auto'}} src={SPEAKER10}></img> */}
                     {/* <h4 style={{backgroundColor: 'red', fontSize: '30px', marginBottom: '30px'}}>4-POINT SPEAKER SYSTEM</h4> */}
                     {/* <img className='invert' style={{mixBlendMode: 'exclusion', width: '700px', height: 'auto', marginTop: '-10px'}} src={SPEAKER14}></img> */}
                     
