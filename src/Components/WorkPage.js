@@ -56,7 +56,7 @@ const WorkPage = () => {
                     {/* <br></br>
                     <h2>2022</h2> */}
                     <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200">
-                    <Link to="/STEMPLYR"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify'}}><h1 className="projectName">STEM PROJECTOR</h1><p className="wordTag">DESIGN ENGINEERING</p></div></Link></HoverImage>
+                    <Link to="/STEMPJCTR"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify'}}><h1 className="projectName">STEM PROJECTOR</h1><p className="wordTag">DESIGN ENGINEERING</p></div></Link></HoverImage>
                     <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200">
                     <Link to="/SNDSCPE"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify'}}><h1 className="projectName">SANDSCAPE</h1><p className="wordTag">PHYSICAL COMPUTING</p></div></Link></HoverImage>
                     <br></br>

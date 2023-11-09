@@ -51,7 +51,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
         </Route>
         <Route path="/SPKRDSGN" element={ <SPKRDSGN/> }>
         </Route>
-        <Route path="/STEMPLYR" element={ <STEMPLYR/> }>
+        <Route path="/STEMPJCTR" element={ <STEMPLYR/> }>
         </Route>
         <Route path="/TRVPRNTS" element={ <TRVPRNTS/> }>
         </Route>
