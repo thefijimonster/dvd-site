@@ -97,7 +97,7 @@ const STEMPLYR = () => {
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '10px', marginTop: '30px', marginBottom: '40px'}}>
                     {/* <h4 style={{backgroundColor: 'red', fontSize: '30px'}}>STEM PROJECTOR</h4> */}
                     <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '30px', marginBottom: '10px',  paddingRight: '8px', paddingLeft: '8px'}}>
-                        <p style={{width: '380px', textAlign: 'center', color: 'red', fontWeight: 'bolder', fontSize: '20px', lineHeight: '24px'}}>
+                        <p style={{width: '350px', textAlign: 'center', color: 'red', fontWeight: 'bolder', fontSize: '20px', lineHeight: '24px'}}>
                             MODELLED, CREATED AND VALIDATED A WORKING LEG LINKAGE MECHANISM FOR THE STEM PROJECTOR EVT2
                             <br></br>
                             <span style={{color: 'white', fontSize: '12px'}}>[ INTERNSHIP ]</span>
@@ -109,7 +109,7 @@ const STEMPLYR = () => {
                         {/* <img style={{height: '180px', marginTop: '10px'}} src={STEM1}></img> */}
                         <img className='galleryImg' style={{width: '300px', marginTop: '10px'}} src={STEM2}></img>
                     </div>
-                    <p style={{width: '380px', textAlign: 'center', marginTop: '-130px'}}>During my time as a design engineer intern at STEM, I created a working linkage system in a size-constrained system for the Stem Projector.
+                    <p style={{width: '350px', textAlign: 'center', marginTop: '-130px'}}>During my time as a design engineer intern at STEM, I created a working linkage system in a size-constrained system for the Stem Projector.
                     </p>
                     {/* <p style={{width: '500px', textAlign: 'center', marginTop: '-150px'}}>When the projector is placed on a surface, the spheroid silicon form would morph to project at an angle.
                     </p> */}
