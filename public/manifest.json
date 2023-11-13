@@ -4,18 +4,8 @@
   "icons": [
     {
       "src": "ICON1.png",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "32x32",
       "type": "image/x-icon"
-    },
-    {
-      "src": "ICON1.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "ICON1.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",
