@@ -35,7 +35,7 @@ const STEMPLYR = () => {
                         {/* <img style={{height: '180px', marginTop: '10px'}} src={STEM1}></img> */}
                         <img className='galleryImg' style={{width: '300px', marginTop: '10px'}} src={STEM2}></img>
                     </div>
-                    <p style={{width: '500px', textAlign: 'center', marginTop: '-130px'}}>During my time as a design engineer intern at STEM, I created a working linkage system in a size-constrained system for the Stem Projector.
+                    <p style={{width: '500px', textAlign: 'center', marginTop: '-130px'}}>During my time as a design engineer intern at <a href="https://www.stemplayer.com/stemprojector"><span style={{fontSize: '14px', textDecoration: 'underline', color: 'red', fontWeight: 'bolder'}}>STEM</span></a>, I created a working linkage system in a size-constrained system for the Stem Projector.
                     </p>
                     {/* <p style={{width: '500px', textAlign: 'center', marginTop: '-150px'}}>When the projector is placed on a surface, the spheroid silicon form would morph to project at an angle.
                     </p> */}
@@ -72,7 +72,7 @@ const STEMPLYR = () => {
                         {/* <img style={{height: '180px', marginTop: '10px'}} src={STEM1}></img> */}
                         <img className='galleryImg' style={{width: '300px', marginTop: '10px'}} src={STEM2}></img>
                     </div>
-                    <p style={{width: '480px', textAlign: 'center', marginTop: '-120px'}}>During my time as a design engineer intern at STEM, I created a working linkage system in a size-constrained system for the Stem Projector.
+                    <p style={{width: '480px', textAlign: 'center', marginTop: '-120px'}}>During my time as a design engineer intern at <a href="https://www.stemplayer.com/stemprojector"><span style={{fontSize: '14px', textDecoration: 'underline', color: 'red', fontWeight: 'bolder'}}>STEM</span></a>, I created a working linkage system in a size-constrained system for the Stem Projector.
                     </p>
                     {/* <p style={{width: '500px', textAlign: 'center', marginTop: '-150px'}}>When the projector is placed on a surface, the spheroid silicon form would morph to project at an angle.
                     </p> */}
@@ -109,7 +109,7 @@ const STEMPLYR = () => {
                         {/* <img style={{height: '180px', marginTop: '10px'}} src={STEM1}></img> */}
                         <img className='galleryImg' style={{width: '300px', marginTop: '10px'}} src={STEM2}></img>
                     </div>
-                    <p style={{width: '350px', textAlign: 'center', marginTop: '-130px'}}>During my time as a design engineer intern at STEM, I created a working linkage system in a size-constrained system for the Stem Projector.
+                    <p style={{width: '350px', textAlign: 'center', marginTop: '-130px'}}>During my time as a design engineer intern at <a href="https://www.stemplayer.com/stemprojector"><span style={{fontSize: '14px', textDecoration: 'underline', color: 'red', fontWeight: 'bolder'}}>STEM</span></a>, I created a working linkage system in a size-constrained system for the Stem Projector.
                     </p>
                     {/* <p style={{width: '500px', textAlign: 'center', marginTop: '-150px'}}>When the projector is placed on a surface, the spheroid silicon form would morph to project at an angle.
                     </p> */}
