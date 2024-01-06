@@ -31,8 +31,8 @@ const TRVPRNTS = () => {
                     <img src={TRAVSPRESENTS2} style={{mixBlendMode: 'exclusion', width: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '10px'}}></img>
                     <img className="invert" src={TRAVSPRESENTS3} style={{mixBlendMode: 'exclusion', width: '300px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '20px'}}></img>
                     <p style={{width: '500px', textAlign: 'center'}}>Stripe, a dynamic and secure payment gateway, was integrated into the online store.</p>
-                    <h3>[CLICK THE T-SHIRT TO ENTER STORE]</h3>
-                    <a href="https://www.travspresents.tv/store">
+                    <h3>[CLICK THE T-SHIRT TO ENTER THE SITE]</h3>
+                    <a href="https://www.travspresents.tv/">
                         <img className="invert-on-hover" src={TRAVSPRESENTS5} style={{mixBlendMode: 'exclusion', width: '250px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '-10px', marginBottom: '30px'}}></img>
                     </a>
                 </div>

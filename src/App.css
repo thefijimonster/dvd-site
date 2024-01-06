@@ -146,6 +146,17 @@ h6 {
   width: 200px;
 }
 
+.workItemHover .workOverlay {
+  position:fixed;
+  /* top: 12%; left: 0px; */
+  display: none;
+  margin-left: 40%;
+}
+
+.workItemHover:hover .workOverlay {
+  display: block;
+}
+
 .horizontal-scroll {
   width: 100%;
   overflow: hidden;
@@ -472,6 +483,22 @@ p:hover {
   flex-direction: row;
   /* align-items: center; */
   justify-content: center;
+}
+
+.workImage {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.projectName:hover + .workImage {
+
+}
+
+.projectName:hover + .gllryContainer {
+  display: flex;
+  padding-top: -50px;
 }
 
 .archiveTitle:hover + .gllryContainer{
