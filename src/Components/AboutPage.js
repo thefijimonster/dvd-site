@@ -296,8 +296,8 @@ const AboutPage = () => {
                     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '12px', marginTop: '75px'}}>
                         <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'left', alignItems: 'center'}}>
                             {/* <img style={{width: '300px', mixBlendMode: 'lighten'}}  src={require('../Assets/DVD_ROTATE2.gif')}></img> */}
-                            <p style={{width: '400px', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '28px', lineHeight: '19px', marginBottom: '0px', marginTop: '-20px', paddingTop: '10px', paddingBottom: '10px', backgroundColor: 'red'}}>CURRENTLY LOOKING<br></br>FOR AN INTERNSHIP</p>
-                            <p style={{width: '400px', textAlign: 'left', fontSize: '11px', marginTop: '10px'}}>
+                            <p style={{width: '350px', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '28px', lineHeight: '19px', marginBottom: '0px', marginTop: '-20px', paddingTop: '10px', paddingBottom: '10px', backgroundColor: 'red'}}>CURRENTLY LOOKING<br></br>FOR AN INTERNSHIP</p>
+                            <p style={{width: '350px', textAlign: 'left', fontSize: '11px', marginTop: '10px'}}>
                                 I am looking for a <span style={{color: 'red'}}>3/6-month internship</span> at a studio/company that is able to offer a inter-disciplinary role spanning design, culture and creative technology, starting late april/early march.
                                 <br></br><br></br>
                                 <span style={{color: 'white', fontSize: '12px', fontWeight: 'bold'}}>PLEASE CONTACT ME IF YOU HAVE ANY ENQURIES -> DAVIDCHEN02@ICLOUD.COM</span>
@@ -305,12 +305,12 @@ const AboutPage = () => {
                             
                             {/* <p style={{width: '100%', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '24px', lineHeight: '19px', marginBottom: '30px', marginTop: '-20px', border: '1px solid white', paddingTop: '10px', paddingBottom: '10px', backgroundColor: 'red'}}>CLICK HERE TO<br></br>GET IN TOUCH</p> */}
                             {/* <ImagePlayer images={images} intervalDuration={intervalDuration} /> */}
-                            <img style={{width: '400px', height: '300px', objectFit: 'cover'}} src={require('../Assets/BEAUS4.jpg')}></img>
+                            <img style={{width: '350px', height: '300px', objectFit: 'cover'}} src={require('../Assets/BEAUS4.jpg')}></img>
 
                             {/* <h4 style={{backgroundColor: 'red', fontSize: '30px', marginTop: '-30px'}}>ABOUT ME</h4> */}
                             <div style={{display: 'flex'}}>
                                 
-                            <p style={{width: '400px', textAlign: 'left', fontSize: '11px'}}>
+                            <p style={{width: '350px', textAlign: 'left', fontSize: '11px'}}>
                                 Currently studying <span style={{color: 'red', fontSize: '12px'}}>Design Engineering MEng [3rd year]</span> at the <span style={{color: 'red', fontSize: '12px', fontWeight: 'bold'}}>Dyson School of Design Engineering</span> at Imperial College London. I carry a holistic cross-disciplinary approach to my practise.
                             {/* <br></br>
                             <br></br>
@@ -319,9 +319,9 @@ const AboutPage = () => {
                             </div>
                         </div>
                         <div style={{display: 'flex', width: '400px', justifyContent: 'center', flexDirection: 'row', marginTop: '-20px'}}>
-                            <img style={{width: '140px', objectFit: 'contain', mixBlendMode: 'lighten', marginRight: '-20px'}} src={require('../Assets/DVD_ROTATE2.gif')}></img>
-                            <img style={{width: '140px', objectFit: 'contain', filter: 'invert(100%)', mixBlendMode: 'lighten'}} src={require('../Assets/DYSON.png')}></img>
-                            <img style={{width: '125px', marginLeft: '6px', objectFit: 'contain', filter: 'invert(100%)', mixBlendMode: 'lighten'}} src={require('../Assets/DYSON2.png')}></img>
+                            <img style={{width: '120px', objectFit: 'contain', mixBlendMode: 'lighten', marginRight: '-20px'}} src={require('../Assets/DVD_ROTATE2.gif')}></img>
+                            <img style={{width: '120px', objectFit: 'contain', filter: 'invert(100%)', mixBlendMode: 'lighten'}} src={require('../Assets/DYSON.png')}></img>
+                            <img style={{width: '105px', marginLeft: '6px', objectFit: 'contain', filter: 'invert(100%)', mixBlendMode: 'lighten'}} src={require('../Assets/DYSON2.png')}></img>
                         </div>
                         <div style={{gap: '4px', textAlign: 'center', display: 'none', flexDirection: 'column', justifyContent: 'center', marginTop: '-20px', marginBottom: '20px'}}>
                         <h4 style={{backgroundColor: 'red', fontSize: '20px', marginTop: '14px', color: 'white', paddingTop: '2px', paddingBottom: '2px'}}>HARD SKILLS</h4>

@@ -716,7 +716,7 @@ const SPKRDSGN = () => {
                             <img className="galleryImg" style={{width: '340px', mixBlendMode: 'normal'}} src={require('../Assets/PAGE_ONE.png')}></img>
                         </a> */}
 
-                        <p style={{width: '100%', fontWeight: 'normal', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '10px', marginBottom: '-10px', marginTop: '-20px'}}>BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS</p>
+                        <p style={{width: '100%', fontSize: '6px', fontWeight: 'normal', alignItems: 'center', justifyContent: 'center', textAlign: 'center', marginBottom: '-14px', marginTop: '-20px'}}>BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS</p>
                         <div style={{display: 'flex', textAlign: 'center', width: '90%', justifyContent: 'center', gap: '20px', paddingBottom: '0px'}}>
                                 <div style={{width: '100%', display: 'flex', flexDirection: 'row'}}>
                                     <img style={{width: '120px'}} src={require('../Assets/BEAUS2.jpg')}></img>
@@ -732,7 +732,7 @@ const SPKRDSGN = () => {
                                     <img style={{width: '120px'}} src={require('../Assets/BEAUS2.jpg')}></img>
                                 </div>
                             </div>
-                        <p style={{width: '100%', fontWeight: 'normal', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '10px', marginTop: '-10px'}}>BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS</p>
+                        <p style={{width: '100%', fontWeight: 'normal', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '6px', marginTop: '-12px'}}>BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS BEAU WIV MY LOUDSPEAKERS</p>
 
                         <p style={{width: '400px', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '24px', marginBottom: '0px', marginTop: '10px'}}>TWEETER MOUNT<br></br>DESIGN PROCESS</p>
 
@@ -759,9 +759,9 @@ const SPKRDSGN = () => {
                                     </p>
                                 </div>
                         {/* <h6 style={{fontSize: '30px', marginTop: '-235px', backgroundColor: 'white', marginBottom: '235px', mixBlendMode: 'normal'}}>[CLICK TO <span style={{width: '100px'}}></span> VIEW DOCUMENT]</h6> */}
-                        <p style={{width: '400px', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '24px', marginTop: '0px', marginBottom: '0px'}}>LOUDSPEAKER<br></br>SPECIFICATIONS</p>
+                        <p style={{width: '350px', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '24px', marginTop: '0px', marginBottom: '0px'}}>LOUDSPEAKER<br></br>SPECIFICATIONS</p>
                         <div style={{display: 'flex', flexDirection: 'column', textAlign: 'center', color: 'black', marginTop: '10px'}}>
-                            <p style={{width: '400px'}}>TWO-WAY BOOKSHELF LOUDSPEAKER CONSISTING OF 6.5" DS175 WOOFER PAIRED WITH DC28F-8 DOME TWEETER IN BASS-REFLEX DESIGN WITH FRONT-FIRING TUNED PORT</p>
+                            <p style={{width: '350px', fontWeight: 'bold', fontSize: '14px'}}>TWO-WAY BOOKSHELF LOUDSPEAKER CONSISTING OF 6.5" DS175 WOOFER PAIRED WITH DC28F-8 DOME TWEETER IN BASS-REFLEX DESIGN WITH FRONT-FIRING TUNED PORT</p>
                             {/* <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', height: '20px', width: '600px'}}>
                                 <p style={{width: '200px', textAlign: 'right', marginLeft: '50px'}}>FREQUENCY RESPONSE</p><p style={{paddingLeft: '20px', width: '200px', textAlign: 'left'}}>50Hz-20kHz</p>
                             </div>
@@ -849,7 +849,7 @@ const SPKRDSGN = () => {
                             <p style={{textAlign: 'center', backgroundColor: 'red', color: 'white', fontWeight: 'bold', fontSize: '12px', padding: '4px', paddingLeft: '8px', paddingRight: '8px', paddingTop: '4px'}}>[CLICK TO VIEW THE DOCUMENTATION BOOKLET]</p>
                         </a> */}
                         <div style={{display: 'flex', flexDirection: 'column', textAlign: 'center'}}>
-                            <p style={{width: '400px'}}>VINTAGE-STYLED DESIGN OF TWO-WAY LOUDSPEAKER WITH A 8" FOSTEX FF225WK FULL RANGE AND ALUMINIUM BEYMA DOME TWEETER IN BASS-REFLEX DESIGN WITH FRONT-FIRING TUNED PORT</p>
+                            <p style={{width: '350px', fontWeight: 'bold', fontSize: '14px'}}>VINTAGE-STYLED DESIGN OF TWO-WAY LOUDSPEAKER WITH A 8" FOSTEX FF225WK FULL RANGE AND ALUMINIUM BEYMA DOME TWEETER IN BASS-REFLEX DESIGN WITH FRONT-FIRING TUNED PORT</p>
                             {/* <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', height: '20px', width: '800px'}}>
                                 <p style={{width: '200px', textAlign: 'right', marginLeft: '50px'}}>FREQUENCY RESPONSE</p><p style={{paddingLeft: '20px', width: '200px', textAlign: 'left'}}>40Hz-20kHz</p>
                             </div>
@@ -917,7 +917,7 @@ const SPKRDSGN = () => {
                             <p style={{width: '400px', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '24px', marginBottom: '30px', marginTop: '-20px'}}>PROCESS DOCUMENTATION<br></br>BOOKLET</p>
                             
                             <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/SPKRDSGN001.pdf">
-                                <img className="galleryImg" style={{width: '400px', mixBlendMode: 'normal', marginBottom: '30px', marginTop: '-10px'}} src={require('../Assets/PAGE_ONE.png')}></img>
+                                <img className="galleryImg" style={{width: '350px', mixBlendMode: 'normal', marginBottom: '30px', marginTop: '-10px'}} src={require('../Assets/PAGE_ONE.png')}></img>
                             </a>
 
                             <div style={{width: '100vw', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
