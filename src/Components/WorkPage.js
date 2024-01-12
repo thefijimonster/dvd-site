@@ -32,6 +32,10 @@ const WorkPage = () => {
                     {/* <HomeNav></HomeNav> */}
                     
                     <div style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        justifyContent: 'center'
                         // display: 'flex',
                         // border: '1px solid green',
                         // width: '100%',
@@ -73,7 +77,10 @@ const WorkPage = () => {
                     <Link to="/ARCHIVE"><h1>ARCHIVE</h1></Link>
                     </HoverImage>
                     <br></br>
-                    <Link to="/CONTACT"><h1 className="titleButton">[CONTACT]</h1></Link>
+                    
+                    {/* <br></br> */}
+                    <Link to="/STORE"><h1 className="titleButton" style={{color: 'red', width: '100px'}}>[STORE]</h1></Link>
+                    {/* <Link to="/CONTACT"><h1 className="titleButton" style={{marginTop: '10px'}}>[CONTACT]</h1></Link> */}
                     
                     {/* </HorizontalScroll> */}
                     </div>

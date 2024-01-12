@@ -20,6 +20,7 @@ import SPKRDSGN from './Components/SPKRDSGN';
 import STEMPLYR from './Components/STEMPLYR';
 import TRVPRNTS from './Components/TRVPRNTS';
 import ARCHIVE from './Components/ARCHIVE'
+import STORE from './Components/STORE';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -32,8 +33,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
         </Route>
         <Route path="/ABOUT" element={ <AboutPage/> }>
         </Route>
-        <Route path="/STORE" element={ <StorePage/> }>
-        </Route>
+        {/* <Route path="/STORE" element={ <StorePage/> }>
+        </Route> */}
         {/* <Route path="/WORK" element={ <WorkPage/> }>
         </Route> */}
         <Route path="/CONTACT" element={ <ContactPage/> }>
@@ -54,6 +55,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
         <Route path="/STEMPJCTR" element={ <STEMPLYR/> }>
         </Route>
         <Route path="/TRVPRNTS" element={ <TRVPRNTS/> }>
+        </Route>
+        <Route path="/STORE" element={ <STORE/> }>
         </Route>
       </Routes>
     </BrowserRouter>
