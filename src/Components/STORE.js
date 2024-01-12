@@ -66,13 +66,13 @@ const STORE = () => {
             <MediaQuery maxWidth={500}>
             <div id="contentDiv">
                 <Back></Back>
-                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '30px'}}>
+                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
                     {/* <video style={{ width: '600px', mixBlendMode: 'exclusion'}} autoPlay loop muted className="looping-video">
                         <source src={SANDSCAPE1} type="video/mp4" />
                     </video> */}
                     {/* <h4 style={{backgroundColor: 'red', fontSize: '30px'}}>SANDSCAPE</h4> */}
                     {/* <div style={{width: '100%'}}> */}
-                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', marginTop: '-100px'}}>
+                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '20px'}}>
                             
                             <img src={TEMPLATE} style={{mixBlendMode: 'normal', objectFit: 'cover', width: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}></img>
                             <div style={{display: 'flex', flexDirection: 'column', marginTop: '-30px'}}>
