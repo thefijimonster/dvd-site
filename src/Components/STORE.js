@@ -72,10 +72,10 @@ const STORE = () => {
                     </video> */}
                     {/* <h4 style={{backgroundColor: 'red', fontSize: '30px'}}>SANDSCAPE</h4> */}
                     {/* <div style={{width: '100%'}}> */}
-                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginBottom: '20px'}}>
+                        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', marginTop: '-100px'}}>
                             
                             <img src={TEMPLATE} style={{mixBlendMode: 'normal', objectFit: 'cover', width: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}></img>
-                            <div style={{display: 'flex', flexDirection: 'column'}}>
+                            <div style={{display: 'flex', flexDirection: 'column', marginTop: '-30px'}}>
                                 <p style={{marginTop: '0px', textAlign: 'left', color: 'white', fontWeight: 'normal', fontSize: '20px', lineHeight: '24px'}}>
                                     [PROCESS BOOKLET]
                                 </p>
