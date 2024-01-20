@@ -43,7 +43,7 @@ const WorkPage = () => {
                     }}>
                         {/* <p style={{width: '300px', textAlign: 'center', marginBottom: '30px'}}>Currently studying at Dyson School of Design Engineering at Imperial College London</p> */}
                     {/* <HorizontalScroll> */}
-                    <Link to="/ABOUT"><h1 className="titleButton">[ABOUT]</h1></Link>
+                    <Link to="/ABOUT"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify', marginTop: '2px'}}><h1 className="projectName">[ABOUT]</h1><p className="wordTag">[ABOUT]</p></div></Link>
                     <br></br>
                     {/* <h1 className="titleButton">[WORK]</h1> */}
                     {/* <br></br> */}
@@ -71,15 +71,15 @@ const WorkPage = () => {
                     <Link to="/SNDSCPE"><div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'justify'}}><h1 className="projectName">SANDSCAPE</h1><p style={{marginTop: '0px', fontStyle: 'italic', color: 'red'}}>[UNIVERSITY PROJECT]</p><p className="wordTag">PHYSICAL COMPUTING</p></div></Link></HoverImage>
                     <br></br>
                     <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200">
-                    <Link to="/MSCVIDS"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify', marginTop: '-15px'}}><h1 className="projectName">MUSIC VIDEOS</h1><p className="wordTag">CREATIVE DIRECTION</p></div></Link>
+                    <Link to="/MSCVIDS"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify', marginTop: '-15px'}}><h1 className="projectName">MUSIC VIDEOS</h1><p className="wordTag">MUSIC VIDEOS</p></div></Link>
                     </HoverImage>
                     <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200">
-                    <Link to="/ARCHIVE"><h1>ARCHIVE</h1></Link>
+                    <Link to="/ARCHIVE"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify', marginTop: '2px'}}><h1 className="projectName">ARCHIVE</h1><p className="wordTag">ARCHIVE</p></div></Link>
                     </HoverImage>
                     <br></br>
                     
                     {/* <br></br> */}
-                    <Link to="/STORE"><h1 className="titleButton" style={{color: 'red', width: '100px'}}>[STORE]</h1></Link>
+                    {/* <Link to="/STORE"><h1 className="titleButton" style={{color: 'red', width: '100px'}}>[STORE]</h1></Link> */}
                     {/* <Link to="/CONTACT"><h1 className="titleButton" style={{marginTop: '10px'}}>[CONTACT]</h1></Link> */}
                     
                     {/* </HorizontalScroll> */}

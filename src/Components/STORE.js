@@ -20,7 +20,7 @@ const STORE = () => {
     <section>
             {/* <Background></Background> */}
             <MediaQuery minWidth={501}>
-            <div id="contentDiv">
+            <div id="contentDiv" style={{backgroundColor: '#181818'}}>
                 <Back></Back>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '30px'}}>
                     {/* <video style={{ width: '600px', mixBlendMode: 'exclusion'}} autoPlay loop muted className="looping-video">
@@ -30,7 +30,7 @@ const STORE = () => {
                     {/* <div style={{width: '100%'}}> */}
                         <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginLeft: '-35px'}}>
                             
-                            <img src={TEMPLATE} style={{mixBlendMode: 'normal', marginLeft: '-100px', objectFit: 'cover', width: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}></img>
+                            <img src={TEMPLATE} style={{mixBlendMode: 'lighten', marginLeft: '-100px', objectFit: 'cover', width: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}></img>
                             <div style={{display: 'flex', flexDirection: 'column', marginLeft: '-100px'}}>
                                 <p style={{marginTop: '0px', textAlign: 'left', color: 'white', fontWeight: 'normal', fontSize: '20px', lineHeight: '24px'}}>
                                     [PROCESS BOOKLET]
@@ -49,7 +49,7 @@ const STORE = () => {
                                     <br></br>
                                     <br></br>
                                     A4 >160GSM PAPER ATTACHED WITH <br></br>X2 M4 NUTS AND BOLTS
-                                    <p style={{fontWeight: 'bold', fontSize: '10px', lineHeight: '10px'}}>WHO TF YOU KNOW USING NUTS & BOLTS ON PAPER</p>
+                                    {/* <p style={{fontWeight: 'bold', fontSize: '10px', lineHeight: '10px'}}>WHO TF YOU KNOW USING NUTS & BOLTS ON PAPER</p> */}
 
                                 </p>
                                 <a href="https://buy.stripe.com/8wMaGF6yL5c2a8U5kk">

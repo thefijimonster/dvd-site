@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #181818;
+  background-color: black;
 }
 
 .App {
@@ -66,7 +66,7 @@ body {
 #bgContainer {
   width: 100vw;
   height: 100vh;
-  background-color: #181818;
+  background-color: black;
 }
 
 #dvdMarquee {
@@ -101,7 +101,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #181818;
+  background-color: black;
 }
 
 h1 {
@@ -382,7 +382,7 @@ p:hover {
   height: 100%;
   /* border: 1px solid red; */
   /* z-index: -1; */
-  opacity: 0.9;
+  opacity: 1;
 }
 
 
@@ -392,7 +392,7 @@ p:hover {
   height: 60px; /* Adjust the size as needed */
   background: url('./Assets/dvd_logo_white.png') no-repeat;
   background-size: contain;
-  /* mix-blend-mode: exclusion; */
+  mix-blend-mode: hard-light;
 }
 
 .horizontal-scroll-container {

@@ -142,7 +142,7 @@ const SPKRDSGN = () => {
                                         <br></br><br></br>
                                         My intuition was to look at similar examples we use day to day. A cone lamp offers a directional beam of light that depends on where the viewer has directed their attention. I decided to experiment with the idea of constant spring tension made famous by the iconic Anglepoise design.
                                     </p>
-                                    <img style={{width: '350px', marginBottom: '20px', mixBlendMode: 'lighten', marginLeft: '-40px'}} src={require('../Assets/MOUNT1.png')}></img>
+                                    <img className='invert' style={{width: '350px', marginBottom: '20px', mixBlendMode: 'lighten', marginLeft: '-40px'}} src={require('../Assets/MOUNT1.png')}></img>
                                     <p style={{width: '350px', wordWrap: 'break-word', overflowWrap: 'break-word', lineHeight: '18px', whiteSpace: 'normal', display: 'flex', marginTop: '-20px'}}>
                                         I went down to IKEA to buy two spring-tensioned lamps. I modelled and 3D printed an attachment mechanism with an interference fit so that the tweeter would snap into the part. I then screwed this part onto the frame so that the tweeter could now be repositioned and readjusted easily to face any direction.
                                         <br></br><br></br>
@@ -447,7 +447,7 @@ const SPKRDSGN = () => {
                                         <br></br><br></br>
                                         My intuition was to look at similar examples we use day to day. A cone lamp offers a directional beam of light that depends on where the viewer has directed their attention. I decided to experiment with the idea of constant spring tension made famous by the iconic Anglepoise design.
                                     </p>
-                                    <img style={{width: '350px', marginBottom: '20px', mixBlendMode: 'lighten', marginLeft: '-40px'}} src={require('../Assets/MOUNT1.png')}></img>
+                                    <img className='invert' style={{width: '350px', marginBottom: '20px', mixBlendMode: 'lighten', marginLeft: '-40px'}} src={require('../Assets/MOUNT1.png')}></img>
                                     <p style={{width: '350px', wordWrap: 'break-word', overflowWrap: 'break-word', lineHeight: '18px', whiteSpace: 'normal', display: 'flex', marginTop: '-20px'}}>
                                         I went down to IKEA to buy two spring-tensioned lamps. I modelled and 3D printed an attachment mechanism with an interference fit so that the tweeter would snap into the part. I then screwed this part onto the frame so that the tweeter could now be repositioned and readjusted easily to face any direction.
                                         <br></br><br></br>
@@ -751,7 +751,7 @@ const SPKRDSGN = () => {
                                         <br></br><br></br>
                                         My intuition was to look at similar examples we use day to day. A cone lamp offers a directional beam of light that depends on where the viewer has directed their attention. I decided to experiment with the idea of constant spring tension made famous by the iconic Anglepoise design.
                                     </p>
-                                    <img style={{width: '350px', marginBottom: '20px', mixBlendMode: 'lighten', marginLeft: '-40px'}} src={require('../Assets/MOUNT1.png')}></img>
+                                    <img className='invert' style={{width: '350px', marginBottom: '20px', mixBlendMode: 'lighten', marginLeft: '-40px'}} src={require('../Assets/MOUNT1.png')}></img>
                                     <p style={{width: '350px', wordWrap: 'break-word', overflowWrap: 'break-word', lineHeight: '18px', whiteSpace: 'normal', display: 'flex', marginTop: '-20px'}}>
                                         I went down to IKEA to buy two spring-tensioned lamps. I modelled and 3D printed an attachment mechanism with an interference fit so that the tweeter would snap into the part. I then screwed this part onto the frame so that the tweeter could now be repositioned and readjusted easily to face any direction.
                                         <br></br><br></br>

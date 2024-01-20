@@ -42,7 +42,7 @@ const AboutPage = () => {
                             <p style={{width: '500px', textAlign: 'left', fontSize: '11px', marginTop: '10px'}}>
                                 I am looking for a <span style={{color: 'red'}}>3/6-month internship</span> at a studio/company that is able to offer a inter-disciplinary role spanning design, culture and creative technology, starting late april/early march.
                                 <br></br><br></br>
-                                <span style={{color: 'white', fontSize: '12px', fontWeight: 'bold'}}>PLEASE CONTACT ME IF YOU HAVE ANY ENQURIES -> DAVIDCHEN02@ICLOUD.COM</span>
+                                <span style={{color: 'white', fontSize: '12px', fontWeight: 'bold'}}>PLEASE CONTACT ME IF YOU HAVE ANY ENQURIES -> DVD@DVD---STUDIO.COM</span>
                             </p>
                             
                             {/* <p style={{width: '100%', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '24px', lineHeight: '19px', marginBottom: '30px', marginTop: '-20px', border: '1px solid white', paddingTop: '10px', paddingBottom: '10px', backgroundColor: 'red'}}>CLICK HERE TO<br></br>GET IN TOUCH</p> */}
@@ -171,7 +171,7 @@ const AboutPage = () => {
                             <p style={{width: '500px', textAlign: 'left', fontSize: '11px', marginTop: '10px'}}>
                                 I am looking for a <span style={{color: 'red'}}>3/6-month internship</span> at a studio/company that is able to offer a inter-disciplinary role spanning design, culture and creative technology, starting late april/early march.
                                 <br></br><br></br>
-                                <span style={{color: 'white', fontSize: '12px', fontWeight: 'bold'}}>PLEASE CONTACT ME IF YOU HAVE ANY ENQURIES -> DAVIDCHEN02@ICLOUD.COM</span>
+                                <span style={{color: 'white', fontSize: '12px', fontWeight: 'bold'}}>PLEASE CONTACT ME IF YOU HAVE ANY ENQURIES -> DVD@DVD---STUDIO.COM</span>
                             </p>
                             
                             {/* <p style={{width: '100%', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '24px', lineHeight: '19px', marginBottom: '30px', marginTop: '-20px', border: '1px solid white', paddingTop: '10px', paddingBottom: '10px', backgroundColor: 'red'}}>CLICK HERE TO<br></br>GET IN TOUCH</p> */}
@@ -300,7 +300,7 @@ const AboutPage = () => {
                             <p style={{width: '350px', textAlign: 'left', fontSize: '11px', marginTop: '10px'}}>
                                 I am looking for a <span style={{color: 'red'}}>3/6-month internship</span> at a studio/company that is able to offer a inter-disciplinary role spanning design, culture and creative technology, starting late april/early march.
                                 <br></br><br></br>
-                                <span style={{color: 'white', fontSize: '12px', fontWeight: 'bold'}}>PLEASE CONTACT ME IF YOU HAVE ANY ENQURIES -> DAVIDCHEN02@ICLOUD.COM</span>
+                                <span style={{color: 'white', fontSize: '12px', fontWeight: 'bold'}}>PLEASE CONTACT ME IF YOU HAVE ANY ENQURIES -> DVD@DVD---STUDIO.COM</span>
                             </p>
                             
                             {/* <p style={{width: '100%', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '24px', lineHeight: '19px', marginBottom: '30px', marginTop: '-20px', border: '1px solid white', paddingTop: '10px', paddingBottom: '10px', backgroundColor: 'red'}}>CLICK HERE TO<br></br>GET IN TOUCH</p> */}

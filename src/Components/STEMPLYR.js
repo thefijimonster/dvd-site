@@ -11,6 +11,9 @@ import STEM6 from '../Assets/STEM6.png'
 import STEM7 from '../Assets/STEM7.gif'
 import STEM8 from '../Assets/STEM8.gif'
 
+import SKATE1 from '../Assets/jazz-1.gif'
+import SKATE2 from '../Assets/manny_on_estate_(w_audio).gif'
+
 import MediaQuery from 'react-responsive';
 
 const STEMPLYR = () => {
@@ -49,6 +52,9 @@ const STEMPLYR = () => {
                         <h4 style={{backgroundColor: 'red'}} className='revealLabel'>[HOVER OVER FOR WORKING DEMO]</h4>
                         <img className='hoverImage' style={{width: '440px', marginTop: '80px'}} src={STEM8}></img>
                     </div>
+
+                    {/* <img src={SKATE1} style={{width: '440px', marginTop: '80px', mixBlendMode: 'exclusion'}}></img> */}
+                    <img src={SKATE1} style={{width: '440px', marginTop: '80px', mixBlendMode: 'exclusion'}}></img>
                     
                 </div>
             </div>
