@@ -77,7 +77,7 @@ const WorkPage = () => {
                     <Link to="/ARCHIVE"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify', marginTop: '2px'}}><h1 className="projectName">ARCHIVE</h1><p className="wordTag">ARCHIVE</p></div></Link>
                     </HoverImage>
                     <br></br>
-                    
+                    <Link to="/STORE"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify', marginTop: '2px'}}><h1 className="projectName">[STORE]</h1><p className="wordTag">[STORE]</p></div></Link>
                     {/* <br></br> */}
                     {/* <Link to="/STORE"><h1 className="titleButton" style={{color: 'red', width: '100px'}}>[STORE]</h1></Link> */}
                     {/* <Link to="/CONTACT"><h1 className="titleButton" style={{marginTop: '10px'}}>[CONTACT]</h1></Link> */}

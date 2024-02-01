@@ -11,7 +11,7 @@ import SANDSCAPE5 from '../Assets/SANDSCAPE5.png';
 import SANDSCAPE6 from '../Assets/SANDSCAPE6.png';
 import SANDSCAPE7 from '../Assets/SANDSCAPE7.png';
 import SANDSCAPE8 from '../Assets/SANDSCAPE8.png';
-import TEMPLATE from '../Assets/ROTATE-BOOKLET.gif'
+import TEMPLATE from '../Assets/ROTATE_BLACK_BACKGROUND_v3.gif'
 
 const videoPath = 'src/Assets/SANDSCAPE1.mp4';
 
@@ -20,7 +20,7 @@ const STORE = () => {
     <section>
             {/* <Background></Background> */}
             <MediaQuery minWidth={501}>
-            <div id="contentDiv" style={{backgroundColor: '#181818'}}>
+            <div id="contentDiv" style={{backgroundColor: 'black'}}>
                 <Back></Back>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '30px'}}>
                     {/* <video style={{ width: '600px', mixBlendMode: 'exclusion'}} autoPlay loop muted className="looping-video">
@@ -30,8 +30,8 @@ const STORE = () => {
                     {/* <div style={{width: '100%'}}> */}
                         <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginLeft: '-35px'}}>
                             
-                            <img src={TEMPLATE} style={{mixBlendMode: 'lighten', marginLeft: '-100px', objectFit: 'cover', width: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}></img>
-                            <div style={{display: 'flex', flexDirection: 'column', marginLeft: '-100px'}}>
+                            <img src={TEMPLATE} style={{mixBlendMode: 'lighten', marginLeft: '-200px', objectFit: 'cover', width: '650px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}></img>
+                            <div style={{display: 'flex', flexDirection: 'column', marginLeft: '-200px'}}>
                                 <p style={{marginTop: '0px', textAlign: 'left', color: 'white', fontWeight: 'normal', fontSize: '20px', lineHeight: '24px'}}>
                                     [PROCESS BOOKLET]
                                 </p>
@@ -74,7 +74,7 @@ const STORE = () => {
                     {/* <div style={{width: '100%'}}> */}
                         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '20px'}}>
                             
-                            <img src={TEMPLATE} style={{mixBlendMode: 'normal', objectFit: 'cover', width: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}></img>
+                            <img src={TEMPLATE} style={{mixBlendMode: 'normal', objectFit: 'cover', width: '700px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}></img>
                             <div style={{display: 'flex', flexDirection: 'column', marginTop: '-30px'}}>
                                 <p style={{marginTop: '0px', textAlign: 'left', color: 'white', fontWeight: 'normal', fontSize: '20px', lineHeight: '24px'}}>
                                     [PROCESS BOOKLET]
