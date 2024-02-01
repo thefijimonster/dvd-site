@@ -93,7 +93,7 @@ const STORE = () => {
                                     <br></br>
                                     <br></br>
                                     A4 >160GSM PAPER ATTACHED WITH <br></br>X2 M4 NUTS AND BOLTS
-                                    <p style={{fontWeight: 'bold', fontSize: '10px', lineHeight: '10px'}}>WHO TF YOU KNOW USING NUTS & BOLTS ON PAPER</p>
+                                    {/* <p style={{fontWeight: 'bold', fontSize: '10px', lineHeight: '10px'}}>WHO TF YOU KNOW USING NUTS & BOLTS ON PAPER</p> */}
 
                                 </p>
                                 <a href="https://buy.stripe.com/8wMaGF6yL5c2a8U5kk">
