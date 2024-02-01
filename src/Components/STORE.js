@@ -42,7 +42,7 @@ const STORE = () => {
                                     HAND-MADE PROCESS BOOKLET DETAILING AND DOCUMENTING HOW THE LOUDSPEAKER SYSTEM WAS CREATED
                                     <br></br>
                                     <br></br>
-                                    READ-ONLY COPY AVAILABLE AT BEAUBEAU'S CAFE
+                                    READ-ONLY COPIES AVAILABLE AT BEAUBEAU'S CAFE, KINDRED LDN AND REFERENCE POINT
                                     <br></br>
                                     <br></br>
                                     <br></br>
@@ -86,7 +86,7 @@ const STORE = () => {
                                     HAND-MADE PROCESS BOOKLET DETAILING AND DOCUMENTING HOW THE LOUDSPEAKER SYSTEM WAS CREATED
                                     <br></br>
                                     <br></br>
-                                    READ-ONLY COPY AVAILABLE AT BEAUBEAU'S CAFE
+                                    READ-ONLY COPIES AVAILABLE AT BEAUBEAU'S CAFE, KINDRED LDN AND REFERENCE POINT
                                     <br></br>
                                     <br></br>
                                     <br></br>
@@ -97,7 +97,7 @@ const STORE = () => {
 
                                 </p>
                                 <a href="https://buy.stripe.com/8wMaGF6yL5c2a8U5kk">
-                                    <p style={{backgroundColor: 'red', color: 'white', fontSize: '16px', border: '1px solid white'}}>BUY NOW</p>
+                                    <p style={{backgroundColor: 'red', color: 'white', fontSize: '16px'}}>BUY NOW</p>
                                 </a>
                             </div>
                         </div>
