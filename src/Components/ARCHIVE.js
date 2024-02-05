@@ -21,7 +21,6 @@ const ARCHIVE = () => {
                         <p style={{color: 'white', fontWeight: 'bolder'}}>2023</p>
                         <span style={{border: '0.5px solid white'}}></span>
                     </div>
-
                     
                     <div>
                         
@@ -83,6 +82,25 @@ const ARCHIVE = () => {
                         </div>
                     </div>
                     </a>
+
+                    <div>
+                        <div className="archiveTitle">
+                            <a href="https://dvd---studio.com/SPKRDSGN">
+                            <ArchiveComp date="2023" title="HI-FI LOUDSPEAKER SYSTEM" category="AUDIO ENGINEERING, PRODUCT DESIGN, ELECTRONICS ENGINEERING" resources="LINK"/>
+                            </a>
+                        </div>
+                        <div className='gllryContainer' style={{justifyContent: 'center', alignItems: 'center', gap: '20px'}}>
+                            {/* <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/BEAUS1.jpg')}></img> */}
+                            <img className="galleryImg" style={{width: '250px'}} src={require('../Assets/BEAUS2.jpg')}></img>
+                            {/* <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/BEAUS3.jpg')}></img> */}
+                            <img className="galleryImg" style={{width: '250px'}} src={require('../Assets/BEAUS4.jpg')}></img>
+                            <img className="galleryImg" style={{width: '250px'}} src={require('../Assets/BEAUS8.jpg')}></img>
+                            <img className="galleryImg" style={{width: '250px'}} src={require('../Assets/BEAUS10.jpg')}></img>
+                            {/* <img className="galleryImg"  src={require('../Assets/TRAVSPRESENTS3.png')}></img> */}
+                            {/* <img className="galleryImg"  src={require('../Assets/TRAVSPRESENTS4.png')}></img> */}
+                            {/* <img className="galleryImg" style={{mixBlendMode: 'exclusion', width: '240px'}} src={require('../Assets/TRAVSPRESENTS5.png')}></img> */}
+                        </div>
+                    </div>
                     
                     <a href="https://www.youtube.com/watch?v=pemL1jVN0qw&t=1451s">
                     <div>
@@ -474,6 +492,25 @@ const ARCHIVE = () => {
                         </div>
                     </div>
                     </a>
+
+                    <div>
+                        <div className="archiveTitle">
+                            <a href="https://dvd---studio.com/SPKRDSGN">
+                            <ArchiveComp date="2023" title="HI-FI LOUDSPEAKER SYSTEM" category="AUDIO ENGINEERING, PRODUCT DESIGN, ELECTRONICS ENGINEERING" resources="LINK"/>
+                            </a>
+                        </div>
+                        <div className='gllryContainer' style={{justifyContent: 'center', alignItems: 'center', gap: '20px'}}>
+                            {/* <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/BEAUS1.jpg')}></img> */}
+                            <img className="galleryImg" style={{width: '190px'}} src={require('../Assets/BEAUS2.jpg')}></img>
+                            {/* <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/BEAUS3.jpg')}></img> */}
+                            <img className="galleryImg" style={{width: '190px'}} src={require('../Assets/BEAUS4.jpg')}></img>
+                            <img className="galleryImg" style={{width: '190px'}} src={require('../Assets/BEAUS8.jpg')}></img>
+                            <img className="galleryImg" style={{width: '190px'}} src={require('../Assets/BEAUS10.jpg')}></img>
+                            {/* <img className="galleryImg"  src={require('../Assets/TRAVSPRESENTS3.png')}></img> */}
+                            {/* <img className="galleryImg"  src={require('../Assets/TRAVSPRESENTS4.png')}></img> */}
+                            {/* <img className="galleryImg" style={{mixBlendMode: 'exclusion', width: '240px'}} src={require('../Assets/TRAVSPRESENTS5.png')}></img> */}
+                        </div>
+                    </div>
                     
                     <a href="https://www.youtube.com/watch?v=pemL1jVN0qw&t=1451s">
                     <div>
@@ -865,6 +902,25 @@ const ARCHIVE = () => {
                         </div>
                     </div>
                     </a>
+
+                    <div>
+                        <div className="archiveTitle">
+                            <a href="https://dvd---studio.com/SPKRDSGN">
+                            <ArchiveComp date="2023" title="HI-FI LOUDSPEAKER SYSTEM" category="AUDIO ENGINEERING, PRODUCT DESIGN, ELECTRONICS ENGINEERING" resources="LINK"/>
+                            </a>
+                        </div>
+                        <div className='gllryContainer' style={{justifyContent: 'center', alignItems: 'center', gap: '20px'}}>
+                            {/* <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/BEAUS1.jpg')}></img> */}
+                            <img className="galleryImg" style={{width: '190px'}} src={require('../Assets/BEAUS2.jpg')}></img>
+                            {/* <img className="galleryImg" style={{width: '200px'}} src={require('../Assets/BEAUS3.jpg')}></img> */}
+                            <img className="galleryImg" style={{width: '190px'}} src={require('../Assets/BEAUS4.jpg')}></img>
+                            <img className="galleryImg" style={{width: '190px'}} src={require('../Assets/BEAUS8.jpg')}></img>
+                            <img className="galleryImg" style={{width: '190px'}} src={require('../Assets/BEAUS10.jpg')}></img>
+                            {/* <img className="galleryImg"  src={require('../Assets/TRAVSPRESENTS3.png')}></img> */}
+                            {/* <img className="galleryImg"  src={require('../Assets/TRAVSPRESENTS4.png')}></img> */}
+                            {/* <img className="galleryImg" style={{mixBlendMode: 'exclusion', width: '240px'}} src={require('../Assets/TRAVSPRESENTS5.png')}></img> */}
+                        </div>
+                    </div>
                     
                     <a href="https://www.youtube.com/watch?v=pemL1jVN0qw&t=1451s">
                     <div>
