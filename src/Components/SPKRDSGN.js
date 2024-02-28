@@ -307,7 +307,8 @@ const SPKRDSGN = () => {
 
                             <p style={{width: '400px', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '24px', marginBottom: '30px', marginTop: '-20px'}}>PROCESS DOCUMENTATION<br></br>BOOKLET</p>
                             
-                            <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/SPKRDSGN001.pdf">
+                            {/* <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/SPKRDSGN001.pdf"> */}
+                            <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/A5_BINDER_COMPRESSED.pdf">
                                 <img className="galleryImg" style={{width: '400px', mixBlendMode: 'normal', marginBottom: '30px', marginTop: '-10px'}} src={require('../Assets/PAGE_ONE.png')}></img>
                             </a>
                             
@@ -612,7 +613,8 @@ const SPKRDSGN = () => {
 
                             <p style={{width: '400px', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '24px', marginBottom: '30px', marginTop: '-20px'}}>PROCESS DOCUMENTATION<br></br>BOOKLET</p>
                             
-                            <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/SPKRDSGN001.pdf">
+                            {/* <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/SPKRDSGN001.pdf"> */}
+                            <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/A5_BINDER_COMPRESSED.pdf">
                                 <img className="galleryImg" style={{width: '400px', mixBlendMode: 'normal', marginBottom: '30px', marginTop: '-10px'}} src={require('../Assets/PAGE_ONE.png')}></img>
                             </a>
                             <div style={{width: '100vw', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
@@ -916,7 +918,8 @@ const SPKRDSGN = () => {
 
                             <p style={{width: '400px', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: '24px', marginBottom: '30px', marginTop: '-20px'}}>PROCESS DOCUMENTATION<br></br>BOOKLET</p>
                             
-                            <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/SPKRDSGN001.pdf">
+                            {/* <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/SPKRDSGN001.pdf"> */}
+                            <a href="https://dvd-folio.s3.eu-west-2.amazonaws.com/A5_BINDER_COMPRESSED.pdf">
                                 <img className="galleryImg" style={{width: '350px', mixBlendMode: 'normal', marginBottom: '30px', marginTop: '-10px'}} src={require('../Assets/PAGE_ONE.png')}></img>
                             </a>
 
