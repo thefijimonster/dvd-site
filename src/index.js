@@ -21,6 +21,7 @@ import STEMPLYR from './Components/STEMPLYR';
 import TRVPRNTS from './Components/TRVPRNTS';
 import ARCHIVE from './Components/ARCHIVE'
 import STORE from './Components/STORE';
+import WORKSHOP from './Components/WORKSHOP';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -29,17 +30,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={ <WorkPage/> }>
+        <Route path="/" element={ <WORKSHOP/> }>
         </Route>
-        <Route path="/ABOUT" element={ <AboutPage/> }>
+        {/* <Route path="/ABOUT" element={ <AboutPage/> }>
         </Route>
-        {/* <Route path="/STORE" element={ <StorePage/> }>
-        </Route> */}
-        {/* <Route path="/WORK" element={ <WorkPage/> }>
-        </Route> */}
         <Route path="/CONTACT" element={ <ContactPage/> }>
         </Route>
-        {/* WORK PAGES */}
+
         <Route path="/BSCPBRGHT" element={ <BSCPBRGHT/> }>
         </Route>
         <Route path="/ARCHIVE" element={ <ARCHIVE/> }>
@@ -58,6 +55,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
         </Route>
         <Route path="/STORE" element={ <STORE/> }>
         </Route>
+        <Route path="/WORKSHOP" element={ <WORKSHOP/> }>
+        </Route> */}
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

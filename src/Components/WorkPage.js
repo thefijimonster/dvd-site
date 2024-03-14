@@ -43,14 +43,15 @@ const WorkPage = () => {
                     }}>
                         {/* <p style={{width: '300px', textAlign: 'center', marginBottom: '30px'}}>Currently studying at Dyson School of Design Engineering at Imperial College London</p> */}
                     {/* <HorizontalScroll> */}
-                    <Link to="/ABOUT"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify', marginTop: '2px'}}><h1 className="projectName">[ABOUT]</h1><p className="wordTag">[ABOUT]</p></div></Link>
+                    <Link to="/WORKSHOP"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify', marginTop: '2px'}}><h1 className="projectName" style={{color: 'red'}}>[UPCOMING WORKSHOP]</h1><p className="wordTag">[UPCOMING WORKSHOP]</p></div></Link>
+                    {/* <Link to="/ABOUT"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify', marginTop: '2px'}}><h1 className="projectName">[ABOUT]</h1><p className="wordTag">[ABOUT]</p></div></Link> */}
                     <br></br>
                     {/* <h1 className="titleButton">[WORK]</h1> */}
                     {/* <br></br> */}
                     {/* <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200"></HoverImage> */}
                     {/* <div style={{position:"relative", display: 'flex', flexDirection: 'column'}}> */}
                         <Link to="/SPKRDSGN">
-                            <div className="workItemHover" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'justify'}}><h1 className="projectName" style={{}}>HI-FI LOUDSPEAKER SYSTEM</h1><p style={{marginTop: '0px', fontStyle: 'italic', color: 'red'}}>[PERSONAL PROJECT]</p><p className="wordTag">DESIGN ENGINEERING</p>
+                            <div className="workItemHover" style={{display: 'none', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'justify'}}><h1 className="projectName" style={{}}>HI-FI LOUDSPEAKER SYSTEM</h1><p style={{marginTop: '0px', fontStyle: 'italic', color: 'red'}}>[PERSONAL PROJECT]</p><p className="wordTag">DESIGN ENGINEERING</p>
                                 {/* <img className="workOverlay" style={{width: '400px'}} src={require('../Assets/BEAUS4.jpg')}></img> */}
                             </div>
                         </Link>
@@ -58,14 +59,16 @@ const WorkPage = () => {
                     {/* <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200">P
                     <Link to="/OBGTRCDS"><h1>OBLIGATED RECORDS</h1></Link></HoverImage> */}
                     {/* <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200"> */}
-                    <Link to="/TRVPRNTS"><div className="workItemHover" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'justify'}}><h1 className="projectName">TRAVSPRESENTS.TV</h1><p style={{marginTop: '0px', fontStyle: 'italic', color: 'red'}}>[COMMISSIONED PROJECT]</p><p className="wordTag">SOFTWARE DEVELOPMENT</p>
+
+                    {/* <Link to="/TRVPRNTS"><div className="workItemHover" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'justify'}}><h1 className="projectName">TRAVSPRESENTS.TV</h1><p style={{marginTop: '0px', fontStyle: 'italic', color: 'red'}}>[COMMISSIONED PROJECT]</p><p className="wordTag">SOFTWARE DEVELOPMENT</p></Link> */}
                         {/* <img className="workOverlay" style={{width: '400px'}} src={require('../Assets/TRAVSPRESENTS1.gif')}></img> */}
-                    </div></Link>
+                    
                     {/* <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200">
                     <Link to="/BSCPBRGHT"><h1>BEOSCAPE BRIGHT</h1></Link></HoverImage> */}
                     {/* <br></br>
                     <h2>2022</h2> */}
-                    <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200">
+                    
+                    {/* <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200">
                     <Link to="/STEMPJCTR"><div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'justify'}}><h1 className="projectName">STEM PROJECTOR</h1><p style={{marginTop: '0px', fontStyle: 'italic', color: 'red'}}>[INTERNSHIP]</p><p className="wordTag">DESIGN ENGINEERING</p></div></Link></HoverImage>
                     <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200">
                     <Link to="/SNDSCPE"><div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'justify'}}><h1 className="projectName">SANDSCAPE</h1><p style={{marginTop: '0px', fontStyle: 'italic', color: 'red'}}>[UNIVERSITY PROJECT]</p><p className="wordTag">PHYSICAL COMPUTING</p></div></Link></HoverImage>
@@ -75,8 +78,8 @@ const WorkPage = () => {
                     </HoverImage>
                     <HoverImage imageSrc={require('../Assets/PAGE_12.png')} altText="Popup Image" width="1200">
                     <Link to="/ARCHIVE"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify', marginTop: '2px'}}><h1 className="projectName">ARCHIVE</h1><p className="wordTag">ARCHIVE</p></div></Link>
-                    </HoverImage>
-                    <br></br>
+                    </HoverImage> */}
+
                     <Link to="/STORE"><div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', textAlign: 'justify', marginTop: '2px'}}><h1 className="projectName">[STORE]</h1><p className="wordTag">[STORE]</p></div></Link>
                     {/* <br></br> */}
                     {/* <Link to="/STORE"><h1 className="titleButton" style={{color: 'red', width: '100px'}}>[STORE]</h1></Link> */}
