@@ -45,9 +45,9 @@ const WORKSHOP = () => {
             </MediaQuery>
             <MediaQuery maxWidth={500}>
             <div id="contentDiv" style={{backgroundColor: 'black'}}>
-                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '-10px', marginBottom: '-50px',  paddingRight: '8px', paddingLeft: '8px'}}>
-                    <div style={{display: 'flex', flexDirection: 'column', width: '400px', marginTop: '-30px'}}>
-                        <h style={{textAlign: 'center', textTransform: 'uppercase', color: 'white', fontWeight: 'bold', fontSize: '35px', lineHeight: '30px'}}>
+                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '-10px',  paddingRight: '8px', paddingLeft: '8px'}}>
+                    <div style={{display: 'flex', flexDirection: 'column', width: '350px'}}>
+                        <h style={{textAlign: 'center', textTransform: 'uppercase', color: 'white', fontWeight: 'bold', fontSize: '30px', lineHeight: '30px'}}>
                             Upcoming Loudspeaker Building Workshop
                         </h>
                         <p style={{textAlign: 'center', textTransform: 'uppercase', color: 'white', fontWeight: 'lighter', fontSize: '14px', lineHeight: '14px'}}>
