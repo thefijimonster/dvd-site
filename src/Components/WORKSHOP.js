@@ -19,7 +19,7 @@ const WORKSHOP = () => {
     };
 
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768); // Set your threshold here, 768px is commonly used for tablets and mobile devices
+      setIsMobile(window.innerWidth <= 743); // Set your threshold here, 768px is commonly used for tablets and mobile devices
     };
 
     window.addEventListener('resize', handleOrientationChange);
@@ -40,7 +40,7 @@ const WORKSHOP = () => {
       {isMobile ? (
         orientation === 'landscape' ? <WORKSHOP_landscape /> : <WORKSHOP_portrait />
       ) : (
-        <WORKSHOP_portrait/>
+       <WORKSHOP_portrait/>
       )}
     </div>
   );
