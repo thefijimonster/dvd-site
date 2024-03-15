@@ -22,6 +22,7 @@ import TRVPRNTS from './Components/TRVPRNTS';
 import ARCHIVE from './Components/ARCHIVE'
 import STORE from './Components/STORE';
 import WORKSHOP from './Components/WORKSHOP';
+import SUCCESS from './Components/SUCCESS';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -31,6 +32,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
       <ScrollToTop />
       <Routes>
         <Route path="/" element={ <WORKSHOP/> }>
+        </Route>
+        <Route path="/SUCCESS" element={ <SUCCESS/> }>
         </Route>
         {/* <Route path="/ABOUT" element={ <AboutPage/> }>
         </Route>
