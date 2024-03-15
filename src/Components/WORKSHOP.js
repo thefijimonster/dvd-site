@@ -5,8 +5,39 @@ import MediaQuery from 'react-responsive'
 import { Link } from "react-router-dom";
 import Back from "./Back";
 import WORKSHOP1 from '../Assets/ORBIT_SPEAKER_CROPPED.gif';
+import { useOrientation } from "./useOrientation";
+import { useEffect, useState } from "react";
 
 const WORKSHOP = () => {
+
+    const [orientation, setOrientation] = useState('portrait');
+
+    useEffect(() => {
+        const handleOrientationChange = () => {
+        const isLandscape = Math.abs(window.orientation) === 90;
+        setOrientation(isLandscape ? 'landscape' : 'portrait');
+        };
+
+        window.addEventListener('orientationchange', handleOrientationChange);
+
+        // Initial orientation check
+        handleOrientationChange();
+
+        return () => {
+        window.removeEventListener('orientationchange', handleOrientationChange);
+        };
+    }, []);
+
+    return (
+        <div>
+        {orientation === 'landscape' ? <WORKSHOP_landscape /> : <WORKSHOP_portrait />}
+        </div>
+    );
+};
+
+export default WORKSHOP;
+
+const WORKSHOP_portrait = () => {
     return(
     <section>
             {/* <Background></Background> */}
@@ -80,4 +111,24 @@ const WORKSHOP = () => {
     );
 };
 
-export default WORKSHOP;
+const WORKSHOP_landscape = () => {
+    return(
+    <section>
+            {/* <Background></Background> */}
+            <MediaQuery minWidth={501}>
+            <div id="contentDiv" style={{backgroundColor: 'black'}}>
+                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '-10px', marginBottom: '-50px',  paddingRight: '8px', paddingLeft: '8px'}}>
+                    <h1 style={{color: 'white', fontSize: '30px'}}>[ LANDSCAPE ]</h1>
+                </div>
+            </div>
+            </MediaQuery>
+            <MediaQuery maxWidth={500}>
+            <div id="contentDiv" style={{backgroundColor: 'black'}}>
+                <div style={{display: 'flex', fleLANDSCAPExDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '-10px',  paddingRight: '8px', paddingLeft: '8px'}}>
+                    <h1 style={{color: 'white', fontSize: '30px'}}>[ LANDSCAPE ]</h1>
+                </div>
+            </div>
+            </MediaQuery>
+        </section>
+    );
+};
