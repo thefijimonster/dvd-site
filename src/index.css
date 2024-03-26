@@ -12,6 +12,11 @@ body {
   src: local('Press'), url(./Press_Start_2P/PressStart2P-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'PTMono';
+  src: local('PTMono'), url(./Fonts/PTMono-Regular.ttf) format('truetype');
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
