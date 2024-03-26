@@ -174,7 +174,7 @@ const WORKSHOP_portrait = () => {
                             <div style={{display: 'flex', flexDirection: 'column', width: '50vw', marginLeft: '-50vw', justifyContent: 'left', alignItems: 'left'}}>
                                 <div style={{width: '50vw', backgroundColor: 'black', marginLeft: '0'}}>
                                     <p style={{textAlign: 'center', width: '95%', textTransform: 'uppercase', color: 'white', fontWeight: 'bolder', fontSize: '20px', lineHeight: '20px', marginTop: '40px'}}>
-                                        WHY SHOULD YOU TRUST YOU WIV MY MONEY
+                                        WHY SHOULD I TRUST YOU WIV MY MONEY
                                     </p>
                                     <p style={{textAlign: 'center', width: '95%', textTransform: 'none', fontFamily: 'PTMono', color: 'white', fontWeight: 'normal', fontSize: '14px', lineHeight: '14px', marginTop: '0px'}}>
                                         This pair of speakers are 1-of-1 designed by me. You'll get to keep them, and on top of that, you're gonna learn how to build them. My time and designs will be worth a lot more in the future tm.<br></br><br></br>If you wanna spend the same amount of money for some creps you'll only wear once... on u g
@@ -422,7 +422,7 @@ const WORKSHOP_portrait = () => {
                             yeah!
                         </p>
                         <p style={{textAlign: 'center', width: '95%', textTransform: 'uppercase', color: 'rgb(22 22 22)', fontWeight: 'bold', fontSize: '5vw', lineHeight: '5vw', marginTop: '10px'}}>
-                            AND WHY SHOULD YOU TRUST YOU WIV MY MONEY
+                            AND WHY SHOULD I TRUST YOU WIV MY MONEY
                         </p>
                         <p style={{textAlign: 'center', width: '95%', textTransform: 'none', fontFamily: 'PTMono', color: 'rgb(22 22 22)', fontWeight: 'normal', fontSize: '3vw', lineHeight: '3vw', marginTop: '0px'}}>
                             This pair of speakers are 1-of-1 designed by me. You'll get to keep them, and on top of that, you're gonna learn how to build them. My time and designs will be worth a lot more in the future tm.<br></br><br></br>If you wanna spend the same amount of money for some creps you'll only wear once... on u g
