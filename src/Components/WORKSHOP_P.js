@@ -161,7 +161,7 @@ const WORKSHOP_portrait = () => {
                             LOUDSPEAKER WORKSHOP
                         </p>
                         <p style={{textAlign: 'center', width: '95%', textTransform: 'none', fontFamily: 'PTMono', color: 'rgb(22 22 22)', fontWeight: 'normal', fontSize: '18px', lineHeight: '20px'}}>
-                            This will be my first workshop in a series called "Communal Construction", where I will be designing and 
+                            This will be my first workshop in a series called "Communal Construction".
                             Participants will build a pair of passive speakers fully designed by me (a one-of-one two-way loudspeaker with a modular tweeter mound) and learn about the basics of speaker engineering.
                         </p>
                         {/* <div style={{display: 'flex', flexDirection: 'column', overflow: 'none', alignItems: 'center', justifyContent: 'center', gap: '10px', marginTop: '-50px'}}>
@@ -409,7 +409,7 @@ const WORKSHOP_portrait = () => {
                             LOUDSPEAKER WORKSHOP
                         </p>
                         <p style={{textAlign: 'center', width: '95%', textTransform: 'none', fontFamily: 'PTMono', color: 'rgb(22 22 22)', fontWeight: 'normal', fontSize: '3vw', lineHeight: '3vw', marginTop: '-20px'}}>
-                            This will be my first workshop in a series called "Communal Construction", where I will be designing and 
+                            This will be my first workshop in a series called "Communal Construction".
                             Participants will build a pair of passive speakers fully designed by me (a one-of-one two-way loudspeaker with a modular tweeter mound) and learn about the basics of speaker engineering.
                         </p>
                         <div style={{display: 'flex', flexDirection: 'column', overflow: 'none', alignItems: 'center', justifyContent: 'center', gap: '10px', marginTop: '-50px'}}>
